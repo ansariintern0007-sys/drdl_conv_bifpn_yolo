@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
+conda_env.yml
+
+# Model files / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoint.pt
+convnextv2_base.safetensors
+
+# Data directories
+dataset/
+SWRD_Data/
+RT.v23-final.yolov11(RENAME LATER)/
+weld_detection.v1i.yolov11(DONE)/
+weld_detection.v2i.yolov11(DONE)/
+*.zip
+*.tar.gz
+*.7z
+
+# Training runs and outputs
+runs/
+logs/
+*.log
+
+# Project-specific generated reports
+detailed_results.md
+metrics_report.json
+training_log.json
+dataset_inspection_report.txt
+dataset_statistics.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
